@@ -36,9 +36,6 @@ $( document ).ready(function() {
     $("#footer").delay(750).fadeIn(750, function() {
     // Animation complete
     });
-    $("#header").delay(750).fadeIn(750, function() {
-    // Animation complete
-    });
 });
 
 /*
