@@ -10,6 +10,7 @@ $( document ).ready(function() {
     	console.log("invalid img");
     	console.log(temp_url);
     	rand = Math.random()*names.length;
+    	temp_url = urls[Math.round(rand) - 1]
     }
     
     console.log(Math.round(rand));

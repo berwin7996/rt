@@ -6,7 +6,7 @@ $( document ).ready(function() {
     //makes sure we don't ge tbroken links
     var temp_url = urls[Math.round(rand) - 1]
     
-    while(temp_url.indexOf("jpg") < 0){
+    while(temp_url.indexOf("jpg") < 0 || temp_url.indexOf("freud") >= 0){
     	console.log("invalid img");
     	console.log(temp_url);
     	rand = Math.random()*names.length;
