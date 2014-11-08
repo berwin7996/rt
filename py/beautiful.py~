@@ -38,7 +38,7 @@ imgnames_out.write(str(imgnames))
 imgdata_out = open('imgdata.txt', 'wb')
 imgdata_out.write(str(imgdata))
 
-data_out = open('data1.js', 'wb')
+data_out = open('data.js', 'wb')
 data_out.write('\nvar urls = ')
 data_out.write(str(urls))
 
