@@ -32,7 +32,7 @@
 		text-decoration: underline;
 		position: fixed;
 		top: 25%;
-		left: 63%;
+		left: 57%;
 		z-index: 1600;
 	}
 	.data {
@@ -40,7 +40,7 @@
 		color: white;
 		position: fixed;
 		top: 30%;
-		left: 63%;
+		left: 57%;
 		z-index: 1600;
 	}
 
@@ -65,9 +65,9 @@
 		display: block;
 	    top: 25%;
 
-		right: 39%;
+		right: 45%;
 		z-index: 1500;
-		box-shadow: 10px 10px 5px #a0a0a0;
+		box-shadow: 10px 10px 5px #101010;
 	}
 
 	img.bg {
@@ -101,12 +101,12 @@
 	font-family: 'PT Sans', sans-serif;
 	color: silver;
     position:fixed;
-    top:40%;
-    left:5%;
+    top:30%;
+    right:5%;
 	z-index: 9999;
 	text-align: center;
-	-webkit-transform: rotate(-90deg); 
-	-moz-transform: rotate(-90deg);	
+	-webkit-transform: rotate(90deg); 
+	-moz-transform: rotate(90deg);	
 	}
 
 	</style>
