@@ -22,6 +22,8 @@ $( document ).ready(function() {
     });
 
     $("#link").attr("href", "https://www.google.com/?gws_rd=ssl#q=" + names[Math.round(rand) - 1].split(' ').join('+'));
+    
+    $("#imglink").attr("href", urls[Math.round(rand) - 1]);
 
     $("#text").append(names[Math.round(rand) - 1]);
     $("#text").delay(750).fadeIn(750, function() {

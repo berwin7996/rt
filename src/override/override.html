@@ -57,14 +57,14 @@
 	}
 
 	img.fg{
-		min-height: 80%;
-		max-height: 90%;
-		max-width: 60%;
+		min-height: 60%;
+		max-height: 70%;
+		/*max-width: 60%;*/
 		position: fixed;
 		/*top: 0;*/
 		display: block;
-	    margin-top: 1%;
-	    margin-bottom: 2%;
+	    top: 25%;
+
 		right: 39%;
 		z-index: 1500;
 	}
@@ -86,6 +86,7 @@
 	}
 
 	#footer {
+	
 	font-family: 'PT Sans', sans-serif;
 	color: white;
     position:fixed;
@@ -95,24 +96,27 @@
 	}
 	
 	#header {
-	font-size: 30px;
+	font-size: 50px;
 	font-family: 'PT Sans', sans-serif;
 	color: silver;
-    position:relative;
-    
-	z-index: 2000;
+    position:fixed;
+    top:40%;
+    left:5%;
+	z-index: 9999;
 	text-align: center;
+	-webkit-transform: rotate(-90deg); 
+	-moz-transform: rotate(-90deg);	
 	}
 
 	</style>
 	<title>art</title>
 </head>
 <body>
-<div class = "header" id = "header" style="display:none;">art</div>
+<div class = "header" id = "header" style="display:none;">[ a r t ]</div>
 <img src = "" class = "bg" id = "bg" style="display:none;"></img>
 <div class = darker></div>
 
-<a href="">
+<a href="" id = "imglink" class = "imglink" target="_blank">
 <img src = "" class = "fg" id = "fg" style="display:none;"></img>
 </a>
 

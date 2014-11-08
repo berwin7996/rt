@@ -40,10 +40,10 @@ imgdata_out.write(str(imgdata))
 
 data_out = open('data1.js', 'wb')
 data_out.write('\nvar urls = ')
-data_out.write(str(urls))
+data_out.write(str(imgurls))
 
 data_out.write(';\nvar names = ')
-data_out.write(str(imgurls))
+data_out.write(str(imgnames))
 
 data_out.write(';\nvar data = ')
 data_out.write(str(imgdata))
