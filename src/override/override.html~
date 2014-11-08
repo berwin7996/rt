@@ -67,6 +67,7 @@
 
 		right: 39%;
 		z-index: 1500;
+		box-shadow: 10px 10px 5px #a0a0a0;
 	}
 
 	img.bg {
@@ -116,7 +117,7 @@
 <img src = "" class = "bg" id = "bg" style="display:none;"></img>
 <div class = darker></div>
 
-<a href="" id = "imglink" class = "imglink">
+<a href="" id = "imglink" class = "imglink" target="_blank">
 <img src = "" class = "fg" id = "fg" style="display:none;"></img>
 </a>
 
